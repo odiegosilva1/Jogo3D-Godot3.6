@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://models/player/player/Pirat-player.glb" type="PackedScene" id=1]
+
+[sub_resource type="CapsuleShape" id=1]
+
+[node name="KinematicBody" type="KinematicBody"]
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 0.439409, 0, 0, 0, -0.00293295, -0.763256, 0, 0.28005, 0.00711641, 0.0848638, 1.03641, 0 )
+shape = SubResource( 1 )
+
+[node name="Pirat-player" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.070971, 0.0702908, 0.00356627 )

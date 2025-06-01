@@ -37,7 +37,7 @@ data = PoolVector3Array( 1, 0, 1, -1, 0, 1, 1, 0, -1, -1, 0, 1, -1, 0, -1, 1, 0,
 environment = SubResource( 2 )
 
 [node name="CSGMesh" type="MeshInstance" parent="."]
-transform = Transform( 30, 0, 0, 0, 30, 0, 0, 0, 30, 0, 0, 0 )
+transform = Transform( 90, 0, 0, 0, 90, 0, 0, 0, 90, 0, 0, 0 )
 mesh = SubResource( 3 )
 material/0 = SubResource( 6 )
 
